@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Social Networking</display-name>
+  <welcome-file-list>
+    <welcome-file>Home.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddPersonController</display-name>
+    <servlet-name>AddPersonController</servlet-name>
+    <servlet-class>com.social.controller.AddPersonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddPersonController</servlet-name>
+    <url-pattern>/AddPersonController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ViewPersonController</display-name>
+    <servlet-name>ViewPersonController</servlet-name>
+    <servlet-class>com.social.controller.ViewPersonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewPersonController</servlet-name>
+    <url-pattern>/ViewPersonController</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>SearchPersonController</display-name>
+    <servlet-name>SearchPersonController</servlet-name>
+    <servlet-class>com.social.controller.SearchPersonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchPersonController</servlet-name>
+    <url-pattern>/SearchPersonController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddRelationController</display-name>
+    <servlet-name>AddRelationController</servlet-name>
+    <servlet-class>com.social.controller.AddRelationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddRelationController</servlet-name>
+    <url-pattern>/AddRelationController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeletePersonController</display-name>
+    <servlet-name>DeletePersonController</servlet-name>
+    <servlet-class>com.social.controller.DeletePersonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeletePersonController</servlet-name>
+    <url-pattern>/DeletePersonController</url-pattern>
+  </servlet-mapping>
+</web-app>

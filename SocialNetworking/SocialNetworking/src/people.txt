@@ -1,0 +1,3 @@
+Alex Smith,"","student at RMIT",M,21,WA
+Ben Turner, "BenPhoto.jpg","manager at coles",M,35,VIC
+Hannah White,"Hannah.jpg","student at plc",F,14,VIC
